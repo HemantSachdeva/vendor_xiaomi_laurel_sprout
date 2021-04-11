@@ -132,9 +132,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/com.qualcomm.qti.sigma_miracast@1.0-service.rc \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/seccomp_policy/wfdservice.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice.policy \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
+    vendor/xiaomi/laurel_sprout/proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.android.hotwordenrollment.common.util.jar \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/hw/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
     vendor/xiaomi/laurel_sprout/proprietary/system_ext/lib/libmiracastsystem.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmiracastsystem.so \
@@ -3696,6 +3698,8 @@ PRODUCT_PACKAGES += \
     embms \
     uceShimService \
     dpmserviceapp \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
     ims \
     qcrilmsgtunnel \
     WfdService \
